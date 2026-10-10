@@ -1,0 +1,36 @@
+/* Devsora: company-page sections (About, How it works, Roadmap, FAQ, Contact, footer columns). Loaded after styles.css. */
+
+.about-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: start; }
+.person { padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.person-name { margin-bottom: 0.4rem; font-size: 1.125rem; font-weight: 650; }
+.person p:last-child { margin: 0; color: var(--muted); }
+
+.steps { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin: 2.25rem 0 0; padding: 0; list-style: none; counter-reset: step; }
+.steps li { padding-top: 1.1rem; border-top: 1px solid var(--line-strong); counter-increment: step; }
+.steps li::before { content: "Step " counter(step); display: block; margin-bottom: 0.45rem; color: var(--accent); font-family: var(--font-mono); font-size: 0.8125rem; font-weight: 600; }
+.steps h3 { margin-bottom: 0.4rem; font-size: 1.1875rem; font-weight: 650; }
+.steps p { margin: 0; color: var(--muted); max-width: 40ch; }
+
+.faq { max-width: 46rem; margin-top: 2rem; border-bottom: 1px solid var(--line); }
+.faq details { border-top: 1px solid var(--line); }
+.faq summary { position: relative; padding: 1.1rem 2.25rem 1.1rem 0; font-weight: 600; cursor: pointer; list-style: none; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 0.25rem; top: 0.95rem; color: var(--accent); font-size: 1.35rem; line-height: 1.3; }
+.faq details[open] summary::after { content: "\2212"; }
+.faq details p { margin: 0 0 1.1rem; color: var(--muted); max-width: 60ch; }
+
+.card-link { position: relative; }
+.card-link h3 a { text-decoration: none; }
+.card-link h3 a::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
+.card-link:hover { border-color: rgba(139, 124, 255, 0.6); }
+.card-link h3 a:focus-visible { outline: none; }
+.card-link:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+.footer-cols { display: flex; flex-wrap: wrap; gap: 1.5rem 3.5rem; }
+.footer-head { margin-bottom: 0.4rem; color: var(--dim); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.footer-cols .footer-links { flex-direction: column; gap: 0; }
+
+@media (min-width: 800px) {
+  .about-grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.8fr); gap: 4rem; }
+  .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+}

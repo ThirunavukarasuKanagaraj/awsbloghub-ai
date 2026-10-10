@@ -20,6 +20,7 @@
   <meta name="twitter:description" content="An early-stage AI startup building practical tools for developers and cloud teams. Built in public.">
 
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/company.css">
 
   <script type="application/ld+json">
   {
@@ -48,10 +49,11 @@
       </a>
       <nav aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="#concept">Concept</a></li>
-          <li><a href="#building">What we are building</a></li>
-          <li><a href="#principles">Principles</a></li>
-          <li><a href="#open">Build in public</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#concept">Product</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li><a class="nav-github" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">GitHub</a></li>
         </ul>
       </nav>
@@ -132,6 +134,21 @@
             <text class="hv-label" x="240" y="240" text-anchor="middle">AI</text>
             <text class="hv-label" x="412" y="240" text-anchor="middle">Cloud</text>
           </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <h2 id="about-title">About Devsora</h2>
+          <p class="section-intro">Devsora is an early-stage AI startup building practical tools that simplify developer workflows and cloud operations. Engineering teams lose hours to dashboards, bills and repetitive chores, and we want to give that time back.</p>
+          <p class="section-intro">We build in the open, so everything on this site reflects what exists today and what we are still planning.</p>
+        </div>
+        <div class="person">
+          <p class="status-head">Built by</p>
+          <p class="person-name"><a href="https://github.com/ThirunavukarasuKanagaraj">Thirunavukarasu Kanagaraj</a></p>
+          <p>Working on Devsora in public on GitHub.</p>
         </div>
       </div>
     </section>
@@ -275,6 +292,51 @@
       </div>
     </section>
 
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <h2 id="how-title">How it would work</h2>
+        <p class="section-intro">The planned flow for the AI Cloud Cost Monitor. None of these steps exist yet.</p>
+        <ol class="steps">
+          <li>
+            <h3>Connect, with minimal access</h3>
+            <p>Give the tool read-only access to cost data, keeping permissions as narrow as possible.</p>
+          </li>
+          <li>
+            <h3>Analyze and explain</h3>
+            <p>Spot spending trends and unusual changes, then explain them in plain language.</p>
+          </li>
+          <li>
+            <h3>Review and decide</h3>
+            <p>See recommendations with their trade-offs, and choose what to act on yourself.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section band" id="audience" aria-labelledby="audience-title">
+      <div class="container">
+        <h2 id="audience-title">Who it is for</h2>
+        <p class="section-intro">The people we are building for. This is our intended audience, not a customer list.</p>
+        <ul class="cards">
+          <li class="card">
+            <span class="tag">Intended</span>
+            <h3>Small engineering teams</h3>
+            <p>Teams that run on the cloud but have no dedicated person watching the bill.</p>
+          </li>
+          <li class="card">
+            <span class="tag">Intended</span>
+            <h3>Platform and DevOps engineers</h3>
+            <p>Engineers who want faster answers about what changed and what it costs.</p>
+          </li>
+          <li class="card">
+            <span class="tag">Intended</span>
+            <h3>Engineering leads</h3>
+            <p>Leads who need clear, explainable recommendations they can act on and defend.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="section" id="principles" aria-labelledby="principles-title">
       <div class="container">
         <h2 id="principles-title">Our principles</h2>
@@ -298,6 +360,62 @@
             <p>Our design goal is to ask for the minimum access a tool needs. This is a principle we are building toward, not a claim about controls that already exist.</p>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <section class="section band" id="roadmap" aria-labelledby="roadmap-title">
+      <div class="container">
+        <h2 id="roadmap-title">Roadmap</h2>
+        <p class="section-intro">A direction, not a promise. Dates are left out on purpose, and the order may change as we learn what is useful.</p>
+        <ul class="cards">
+          <li class="card">
+            <span class="tag">Now</span>
+            <h3>Foundation</h3>
+            <p>Publish the brand, this site and the AI Cloud Cost Monitor concept, and collect feedback through GitHub Issues.</p>
+          </li>
+          <li class="card">
+            <span class="tag tag-planned">Next</span>
+            <h3>Prototype</h3>
+            <p>Explore a read-only prototype of the cost monitor using sample data, shared in the open.</p>
+          </li>
+          <li class="card">
+            <span class="tag tag-planned">Later</span>
+            <h3>Real integrations</h3>
+            <p>If the prototype proves useful, explore connecting to real accounts with careful, least-privilege design.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <div class="faq">
+          <details>
+            <summary>What is Devsora?</summary>
+            <p>An early-stage startup building AI-powered tools for developers and cloud teams, with the goal of reducing repetitive work and making technical decisions clearer.</p>
+          </details>
+          <details>
+            <summary>Is the AI Cloud Cost Monitor available?</summary>
+            <p>No. It is a concept. The dashboard on this page uses made-up sample data, and there is no working AI or AWS integration yet.</p>
+          </details>
+          <details>
+            <summary>Does Devsora connect to my AWS account?</summary>
+            <p>No. Nothing connects to any account today.</p>
+          </details>
+          <details>
+            <summary>Is Devsora affiliated with AWS?</summary>
+            <p>No. Devsora is independent and is not affiliated with, endorsed by or sponsored by Amazon Web Services.</p>
+          </details>
+          <details>
+            <summary>Is the code open?</summary>
+            <p>The repository is public on GitHub. A license has not been added yet.</p>
+          </details>
+          <details>
+            <summary>Does this site collect my data?</summary>
+            <p>No. This page has no forms, cookies or analytics scripts.</p>
+          </details>
+        </div>
       </div>
     </section>
 
@@ -340,6 +458,26 @@ python3 -m http.server 8000</code></pre>
         </div>
       </div>
     </section>
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Get in touch</h2>
+        <p class="section-intro">GitHub Issues is our only contact channel for now. It keeps questions and answers public, so everyone can learn from them.</p>
+        <ul class="cards">
+          <li class="card card-link">
+            <h3><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues/new">Ask a question</a></h3>
+            <p>Open an issue with anything you would like to know about Devsora.</p>
+          </li>
+          <li class="card card-link">
+            <h3><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues/new">Suggest an idea</a></h3>
+            <p>Tell us about a problem in your workflow that an AI tool could help with.</p>
+          </li>
+          <li class="card card-link">
+            <h3><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Contribute</a></h3>
+            <p>Browse the code and open a pull request to improve the project.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -355,14 +493,26 @@ python3 -m http.server 8000</code></pre>
         </p>
         <p class="footer-desc">An early-stage AI startup building practical tools that simplify developer workflows and cloud operations.</p>
       </div>
-      <nav aria-label="Footer">
-        <ul class="footer-links">
-          <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Repository</a></li>
-          <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues">Issues</a></li>
-          <li><a href="https://github.com/ThirunavukarasuKanagaraj">GitHub profile</a></li>
-        </ul>
-      </nav>
-      <p class="disclaimer">Devsora is an independent project. It is not affiliated with, endorsed by or sponsored by Amazon Web Services. AWS and related names are trademarks of Amazon.com, Inc. or its affiliates. Dashboard figures on this page are illustrative sample data. Built in public by <a href="https://github.com/ThirunavukarasuKanagaraj">Thirunavukarasu Kanagaraj</a>.</p>
+      <div class="footer-cols">
+        <nav aria-label="Footer company">
+          <p class="footer-head">Company</p>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer project">
+          <p class="footer-head">Project</p>
+          <ul class="footer-links">
+            <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Repository</a></li>
+            <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues">Issues</a></li>
+            <li><a href="https://github.com/ThirunavukarasuKanagaraj">GitHub profile</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="disclaimer">Devsora is an independent project. It is not affiliated with, endorsed by or sponsored by Amazon Web Services. AWS and related names are trademarks of Amazon.com, Inc. or its affiliates. Dashboard figures on this page are illustrative sample data. This site sets no cookies and collects no data. Built in public by <a href="https://github.com/ThirunavukarasuKanagaraj">Thirunavukarasu Kanagaraj</a>.</p>
     </div>
   </footer>
 </body>
