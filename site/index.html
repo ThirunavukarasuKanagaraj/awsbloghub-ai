@@ -3,36 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AWSBlogHub AI | Open-source AI tools for cloud developers</title>
-  <meta name="description" content="AWSBlogHub AI is an early-stage open-source project exploring AI-powered tools for AWS and cloud developers. See what exists today, the roadmap, and how to contribute.">
+  <title>Devsora | Less busywork. More building.</title>
+  <meta name="description" content="Devsora is an early-stage AI startup building practical tools that simplify developer workflows and cloud operations. Built in public.">
   <link rel="canonical" href="https://thirunavukarasukanagaraj.github.io/awsbloghub-ai/">
-  <meta name="theme-color" content="#232F3E">
+  <meta name="theme-color" content="#0A0E1A">
+  <meta name="color-scheme" content="dark">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="AWSBlogHub AI">
-  <meta property="og:title" content="AWSBlogHub AI | Open-source AI tools for cloud developers">
-  <meta property="og:description" content="An early-stage open-source project exploring AI-powered tools for AWS and cloud developers. Built in public.">
+  <meta property="og:site_name" content="Devsora">
+  <meta property="og:title" content="Devsora | Less busywork. More building.">
+  <meta property="og:description" content="An early-stage AI startup building practical tools for developers and cloud teams. Built in public.">
   <meta property="og:url" content="https://thirunavukarasukanagaraj.github.io/awsbloghub-ai/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="AWSBlogHub AI">
-  <meta name="twitter:description" content="An early-stage open-source project exploring AI-powered tools for AWS and cloud developers. Built in public.">
+  <meta name="twitter:title" content="Devsora | Less busywork. More building.">
+  <meta name="twitter:description" content="An early-stage AI startup building practical tools for developers and cloud teams. Built in public.">
 
   <link rel="stylesheet" href="assets/styles.css">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareSourceCode",
-    "name": "AWSBlogHub AI",
-    "description": "An early-stage open-source project exploring AI-powered tools for AWS and cloud developers.",
+    "@type": "Organization",
+    "name": "Devsora",
+    "slogan": "Less busywork. More building.",
+    "description": "An early-stage AI startup building practical tools that simplify developer workflows and cloud operations.",
     "url": "https://thirunavukarasukanagaraj.github.io/awsbloghub-ai/",
-    "codeRepository": "https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai",
-    "author": {
-      "@type": "Person",
-      "name": "Thirunavukarasu Kanagaraj",
-      "url": "https://github.com/ThirunavukarasuKanagaraj"
-    }
+    "sameAs": ["https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai"]
   }
   </script>
 </head>
@@ -41,19 +38,20 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="AWSBlogHub AI, back to top">
+      <a class="brand" href="#top" aria-label="Devsora, back to top">
         <svg class="brand-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-          <rect width="32" height="32" rx="7" fill="#FF9900"/>
-          <path d="M13 10 7 16l6 6M19 10l6 6-6 6" fill="none" stroke="#232F3E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect width="32" height="32" rx="8" fill="#171E33"/>
+          <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none" stroke="#8B7CFF" stroke-opacity="0.5"/>
+          <path d="M13 10 7.5 16l5.5 6M19 10l5.5 6-5.5 6" fill="none" stroke="#8B7CFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <span>AWSBlogHub AI</span>
+        <span>Devsora</span>
       </a>
       <nav aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#status">Status</a></li>
-          <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#contribute">Contribute</a></li>
+          <li><a href="#concept">Concept</a></li>
+          <li><a href="#building">What we are building</a></li>
+          <li><a href="#principles">Principles</a></li>
+          <li><a href="#open">Build in public</a></li>
           <li><a class="nav-github" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">GitHub</a></li>
         </ul>
       </nav>
@@ -61,169 +59,310 @@
   </header>
 
   <main id="main">
-    <section class="hero on-dark" id="top" aria-labelledby="hero-title">
+    <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <h1 id="hero-title">An open-source home for AI-powered cloud developer tools.</h1>
-          <p class="lead">AWSBlogHub AI is an early-stage open-source project exploring how AI can help developers find, understand and apply cloud knowledge. It is built in public, and this page is plain about what exists today and what is still an idea.</p>
+          <p class="eyebrow"><span class="pill">Early stage</span> Less busywork. More building.</p>
+          <h1 id="hero-title">Build smarter. Operate with clarity.</h1>
+          <p class="lead">Devsora is building AI-powered tools to help developers and cloud teams understand their systems, reduce repetitive work, and make better technical decisions.</p>
           <div class="actions">
-            <a class="btn btn-primary" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">View the repository</a>
-            <a class="btn btn-secondary" href="#roadmap">Read the roadmap</a>
+            <a class="btn btn-primary" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Explore the project<span class="sr-only"> on GitHub</span></a>
+            <a class="btn btn-ghost" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues">Follow the journey<span class="sr-only"> on GitHub Issues</span></a>
           </div>
         </div>
 
-        <aside class="ledger" aria-labelledby="ledger-title">
-          <h2 id="ledger-title">Project status</h2>
-          <ul>
-            <li><span class="tag tag-built">Available</span><span>Public GitHub repository</span></li>
-            <li><span class="tag tag-built">Available</span><span>This landing page</span></li>
-            <li><span class="tag tag-built">Available</span><span>Automated GitHub Pages deployment</span></li>
-            <li><span class="tag tag-planned">Planned</span><span>AI-powered cloud tools, scope still to be defined</span></li>
-          </ul>
-          <p class="ledger-note">Solid labels mark what exists. Dashed labels mark ideas that are not built yet.</p>
-        </aside>
-      </div>
-    </section>
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 480 340" width="480" height="340" focusable="false">
+            <defs>
+              <linearGradient id="hv-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#8B7CFF"/>
+                <stop offset="1" stop-color="#5B9BFF"/>
+              </linearGradient>
+              <radialGradient id="hv-glow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#8B7CFF" stop-opacity="0.35"/>
+                <stop offset="1" stop-color="#8B7CFF" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
 
-    <section class="section" id="features" aria-labelledby="features-title">
-      <div class="container">
-        <h2 id="features-title">What the project is working toward</h2>
-        <p class="section-intro">None of these exist yet. They describe the direction the project wants to take, and they will change as it takes shape.</p>
+            <circle cx="240" cy="170" r="150" fill="url(#hv-glow)"/>
+            <circle class="hv-ring" cx="240" cy="170" r="108"/>
+            <circle class="hv-ring" cx="240" cy="170" r="150"/>
 
-        <ul class="rows">
-          <li>
-            <h3>Find and understand cloud content</h3>
-            <p>Help developers search AWS-related documentation and blog posts, and get plain-language summaries that point back to the original sources.</p>
-            <span class="tag tag-planned">Planned</span>
-          </li>
-          <li>
-            <h3>Explain services and trade-offs</h3>
-            <p>Answer questions about how cloud services fit together and what the trade-offs are, so developers can make informed choices.</p>
-            <span class="tag tag-planned">Planned</span>
-          </li>
-          <li>
-            <h3>Support technical writing</h3>
-            <p>Assist with outlining, drafting and reviewing cloud-focused blog posts and tutorials.</p>
-            <span class="tag tag-planned">Planned</span>
-          </li>
-        </ul>
+            <path class="hv-link" d="M112 170H196"/>
+            <path class="hv-link" d="M284 170H368"/>
+            <path class="hv-link hv-link-soft" d="M240 126V70"/>
+            <path class="hv-link hv-link-soft" d="M240 214V270"/>
 
-        <h3 class="subhead">Intended use cases</h3>
-        <ul class="usecases">
-          <li><strong>Learning AWS.</strong> Make unfamiliar services and terminology easier to approach.</li>
-          <li><strong>Evaluating options.</strong> Compare approaches before committing to an architecture.</li>
-          <li><strong>Writing about the cloud.</strong> Turn notes and experiments into clear posts.</li>
-          <li><strong>Contributing to open source.</strong> Work on AI and cloud tooling in the open, with others.</li>
-        </ul>
-      </div>
-    </section>
+            <g transform="translate(24 126)">
+              <rect class="hv-tile" width="88" height="88" rx="18"/>
+              <g transform="translate(26 26) scale(1.5)" class="hv-icon">
+                <path d="m18 16 4-4-4-4"/>
+                <path d="m6 8-4 4 4 4"/>
+                <path d="m14.5 4-5 16"/>
+              </g>
+            </g>
 
-    <section class="section band" id="status" aria-labelledby="status-title">
-      <div class="container">
-        <h2 id="status-title">Where things stand today</h2>
-        <p class="section-intro">The project is at the very start. Here is what you can rely on, and what you should not assume.</p>
+            <g transform="translate(196 126)">
+              <rect class="hv-tile hv-tile-main" width="88" height="88" rx="18"/>
+              <path class="hv-spark" transform="translate(44 44) scale(1.4)" d="M0 -14 L3.6 -3.6 L14 0 L3.6 3.6 L0 14 L-3.6 3.6 L-14 0 L-3.6 -3.6 Z"/>
+            </g>
 
-        <div class="status-grid">
-          <div class="panel panel-built">
-            <h3>Available now</h3>
-            <ul>
-              <li>A public GitHub repository with a README.</li>
-              <li>This responsive landing page, built with static HTML and CSS and no scripts.</li>
-              <li>A GitHub Actions workflow that deploys the page to GitHub Pages.</li>
-            </ul>
-          </div>
-          <div class="panel panel-planned">
-            <h3>Not in the repository yet</h3>
-            <ul>
-              <li>AI-powered tools or models.</li>
-              <li>A hosted service, API or backend.</li>
-              <li>Integrations with AWS services.</li>
-            </ul>
-          </div>
+            <g transform="translate(368 126)">
+              <rect class="hv-tile" width="88" height="88" rx="18"/>
+              <g transform="translate(26 26) scale(1.5)" class="hv-icon">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+              </g>
+            </g>
+
+            <g class="hv-mini" transform="translate(206 20)">
+              <rect width="68" height="50" rx="10"/>
+              <rect class="hv-bar" x="12" y="28" width="8" height="14" rx="2"/>
+              <rect class="hv-bar" x="26" y="20" width="8" height="22" rx="2"/>
+              <rect class="hv-bar hv-bar-hi" x="40" y="12" width="8" height="30" rx="2"/>
+            </g>
+            <g class="hv-mini" transform="translate(206 270)">
+              <rect width="68" height="50" rx="10"/>
+              <circle class="hv-dot" cx="18" cy="17" r="4"/>
+              <rect class="hv-line" x="28" y="14" width="28" height="6" rx="3"/>
+              <circle class="hv-dot hv-dot-dim" cx="18" cy="34" r="4"/>
+              <rect class="hv-line" x="28" y="31" width="20" height="6" rx="3"/>
+            </g>
+
+            <text class="hv-label" x="68" y="240" text-anchor="middle">Workflows</text>
+            <text class="hv-label" x="240" y="240" text-anchor="middle">AI</text>
+            <text class="hv-label" x="412" y="240" text-anchor="middle">Cloud</text>
+          </svg>
         </div>
       </div>
     </section>
 
-    <section class="section" id="roadmap" aria-labelledby="roadmap-title">
+    <section class="section" id="concept" aria-labelledby="concept-title">
       <div class="container">
-        <h2 id="roadmap-title">Roadmap</h2>
-        <p class="section-intro">A direction, not a promise. Dates are left out on purpose, and the order may change as the project learns what is useful.</p>
+        <p class="kicker"><span class="tag tag-planned">Concept</span> Initial product concept</p>
+        <h2 id="concept-title">AI Cloud Cost Monitor</h2>
+        <p class="section-intro">A concept for helping teams on AWS make sense of their cloud bill. It is an idea we are exploring, not a working product. This repository does not contain an AWS integration yet.</p>
 
-        <ol class="phases">
-          <li class="phase phase-now">
-            <div>
-              <h3>Now</h3>
-              <p class="phase-title">Lay the foundation</p>
-            </div>
-            <ul>
-              <li>Publish the repository and this landing page.</li>
-              <li>Set up automated deployment to GitHub Pages.</li>
-              <li>Document how to preview the site and contribute.</li>
-            </ul>
+        <ul class="points">
+          <li>
+            <h3>Understand spending</h3>
+            <p>Break a cloud bill into services, trends and drivers that are easy to read at a glance.</p>
           </li>
-          <li class="phase">
-            <div>
-              <h3>Next</h3>
-              <p class="phase-title">Define the project</p>
-            </div>
-            <ul>
-              <li>Write down the scope and goals.</li>
-              <li>Add contribution guidelines and a license.</li>
-              <li>Pick one small tool to prototype first.</li>
-            </ul>
+          <li>
+            <h3>Spot unusual changes</h3>
+            <p>Surface sudden cost shifts early, with context about what changed.</p>
           </li>
-          <li class="phase">
-            <div>
-              <h3>Later</h3>
-              <p class="phase-title">Build AI-powered cloud tools</p>
+          <li>
+            <h3>Find optimization ideas</h3>
+            <p>Point out places where spend might be reduced, for a person to evaluate.</p>
+          </li>
+          <li>
+            <h3>Review before acting</h3>
+            <p>AI-written explanations and recommendations are suggestions. People decide what to do.</p>
+          </li>
+        </ul>
+
+        <p class="notice" role="note"><strong>Illustrative demo data.</strong> Every number and chart below is made up to show the idea. Nothing here is connected to an AWS account, and no savings are verified.</p>
+
+        <figure class="dash" aria-labelledby="dash-caption">
+          <div class="dash-bar">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="dash-title">Cost overview</span>
+            <span class="chip">Sample data</span>
+          </div>
+
+          <div class="dash-body">
+            <dl class="stats">
+              <div class="stat">
+                <dt>Monthly spend</dt>
+                <dd class="stat-value">$12,480</dd>
+                <dd class="stat-note">+8.2% vs last month</dd>
+              </div>
+              <div class="stat">
+                <dt>Potential savings</dt>
+                <dd class="stat-value stat-good">$1,940</dd>
+                <dd class="stat-note">Unverified estimate</dd>
+              </div>
+              <div class="stat">
+                <dt>Flagged changes</dt>
+                <dd class="stat-value">2</dd>
+                <dd class="stat-note">Awaiting review</dd>
+              </div>
+            </dl>
+
+            <div class="dash-grid">
+              <div class="dash-panel">
+                <h3 class="panel-title">Monthly spend, last 6 months</h3>
+                <svg class="chart" viewBox="0 0 360 170" role="img" aria-label="Bar chart of illustrative monthly spend rising from about 9.8 thousand dollars in April to 12.5 thousand dollars in September.">
+                  <g class="chart-grid">
+                    <line x1="8" y1="30" x2="352" y2="30"/>
+                    <line x1="8" y1="70" x2="352" y2="70"/>
+                    <line x1="8" y1="110" x2="352" y2="110"/>
+                    <line x1="8" y1="140" x2="352" y2="140" class="chart-base"/>
+                  </g>
+                  <g class="chart-bars">
+                    <rect x="22" y="56" width="34" height="84" rx="5"/>
+                    <rect x="78" y="51" width="34" height="89" rx="5"/>
+                    <rect x="134" y="53" width="34" height="87" rx="5"/>
+                    <rect x="190" y="44" width="34" height="96" rx="5"/>
+                    <rect x="246" y="41" width="34" height="99" rx="5"/>
+                    <rect x="302" y="33" width="34" height="107" rx="5" class="bar-hi"/>
+                  </g>
+                  <g class="chart-labels" text-anchor="middle">
+                    <text x="39" y="160">Apr</text>
+                    <text x="95" y="160">May</text>
+                    <text x="151" y="160">Jun</text>
+                    <text x="207" y="160">Jul</text>
+                    <text x="263" y="160">Aug</text>
+                    <text x="319" y="160">Sep</text>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="dash-panel">
+                <h3 class="panel-title">Flagged changes</h3>
+                <ul class="flags">
+                  <li>
+                    <span class="flag-dot flag-warn" aria-hidden="true"></span>
+                    <div>
+                      <p class="flag-title">Data transfer up 34% week over week</p>
+                      <p class="flag-meta">Unusual change</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="flag-dot flag-good" aria-hidden="true"></span>
+                    <div>
+                      <p class="flag-title">Unattached storage volumes</p>
+                      <p class="flag-meta">Possible saving of about $320 per month</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="ai-note">
+                  <p class="ai-label">Example AI explanation</p>
+                  <p>Data transfer costs rose after a traffic increase on one service. Suggested next step: check where the traffic comes from, then decide whether caching is worth it.</p>
+                  <p class="ai-review">Human review required. No changes are made automatically.</p>
+                </div>
+              </div>
             </div>
-            <ul>
-              <li>Prototype the first tool and share it for feedback.</li>
-              <li>Publish early versions in the open.</li>
-              <li>Grow the toolset based on what contributors and users find useful.</li>
-            </ul>
+          </div>
+
+          <figcaption id="dash-caption">Mockup of the AI Cloud Cost Monitor concept. All figures are illustrative sample data, not from a real account.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section band" id="building" aria-labelledby="building-title">
+      <div class="container">
+        <h2 id="building-title">What we are building</h2>
+        <p class="section-intro">Three product directions. All of them are planned, and none are shipped yet.</p>
+
+        <ul class="cards">
+          <li class="card">
+            <span class="tag tag-planned">Planned</span>
+            <h3>AI-assisted cloud insights</h3>
+            <p>Plain-language explanations of what is happening in a cloud environment and why, so teams spend less time digging through consoles and bills.</p>
+          </li>
+          <li class="card">
+            <span class="tag tag-planned">Planned</span>
+            <h3>Developer workflow automation</h3>
+            <p>Taking repetitive operational chores off a developer's plate, with automations that stay visible and easy to review.</p>
+          </li>
+          <li class="card">
+            <span class="tag tag-planned">Planned</span>
+            <h3>Clear, actionable recommendations</h3>
+            <p>Suggestions that say what to change, why it matters and what the trade-offs are, so decisions are easy to make and to explain.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="principles" aria-labelledby="principles-title">
+      <div class="container">
+        <h2 id="principles-title">Our principles</h2>
+        <p class="section-intro">How we intend to build. These describe our approach, not features or certifications that exist today.</p>
+
+        <ol class="principles">
+          <li>
+            <h3>Useful over complicated</h3>
+            <p>Start with real problems developers have, and build the simplest thing that helps.</p>
+          </li>
+          <li>
+            <h3>Transparent by default</h3>
+            <p>Show how conclusions are reached, and be plain about what works today and what does not.</p>
+          </li>
+          <li>
+            <h3>Human control over automated actions</h3>
+            <p>AI can suggest and people approve. Nothing should change your systems without your say.</p>
+          </li>
+          <li>
+            <h3>Security and least-privilege access</h3>
+            <p>Our design goal is to ask for the minimum access a tool needs. This is a principle we are building toward, not a claim about controls that already exist.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="section band" id="contribute" aria-labelledby="contribute-title">
-      <div class="container contribute-grid">
+    <section class="section band" id="open" aria-labelledby="open-title">
+      <div class="container open-grid">
         <div>
-          <h2 id="contribute-title">Help shape it</h2>
-          <p class="section-intro">The project is young, so there is real room to influence where it goes. You do not need to write code to help.</p>
-          <ul class="plain-list">
-            <li>Open an issue with an idea, a question or a use case.</li>
-            <li>Improve this page or the README with a pull request.</li>
-            <li>Watch the repository to follow progress.</li>
-          </ul>
+          <h2 id="open-title">Early stage, built in public</h2>
+          <p class="section-intro">Devsora is at the very beginning. We are developing practical AI tools in the open, so you can follow the work, the decisions and the mistakes as they happen.</p>
+          <p class="section-intro">Explore the code, follow progress, report issues and contribute.</p>
           <div class="actions">
-            <a class="btn btn-dark" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues/new">Open an issue</a>
-            <a class="btn btn-outline" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Browse the repository</a>
+            <a class="btn btn-primary" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Explore the code<span class="sr-only"> on GitHub</span></a>
+            <a class="btn btn-ghost" href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues/new">Report an issue<span class="sr-only"> on GitHub</span></a>
           </div>
         </div>
 
-        <div class="preview">
-          <h3>Preview this site locally</h3>
-          <p>No build step and no dependencies. Any static file server works.</p>
+        <div class="status">
+          <h3>Where things stand</h3>
+          <div class="status-cols">
+            <div>
+              <p class="status-head">Available now</p>
+              <ul>
+                <li>A public GitHub repository</li>
+                <li>This landing page</li>
+                <li>Automated GitHub Pages deployment</li>
+              </ul>
+            </div>
+            <div>
+              <p class="status-head status-head-planned">Not built yet</p>
+              <ul>
+                <li>A working AI Cloud Cost Monitor</li>
+                <li>AWS integration</li>
+                <li>AI features</li>
+              </ul>
+            </div>
+          </div>
+          <p class="status-sub">Preview this page locally. No build step, any static file server works.</p>
 <pre tabindex="0" aria-label="Commands to preview the site locally"><code>git clone https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai.git
 cd awsbloghub-ai/site
 python3 -m http.server 8000</code></pre>
-          <p>Then open <code>http://localhost:8000</code> in your browser.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer on-dark">
+  <footer class="site-footer">
     <div class="container footer-inner">
-      <p>Built in public by <a href="https://github.com/ThirunavukarasuKanagaraj">Thirunavukarasu Kanagaraj</a>.</p>
-      <ul class="footer-links">
-        <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Repository</a></li>
-        <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues">Issues</a></li>
-        <li><a href="https://github.com/ThirunavukarasuKanagaraj">GitHub profile</a></li>
-      </ul>
-      <p class="disclaimer">AWSBlogHub AI is an independent project. It is not affiliated with, endorsed by or sponsored by Amazon Web Services. AWS and related names are trademarks of Amazon.com, Inc. or its affiliates.</p>
+      <div class="footer-brand">
+        <p class="footer-name">
+          <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+            <rect width="32" height="32" rx="8" fill="#171E33"/>
+            <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none" stroke="#8B7CFF" stroke-opacity="0.5"/>
+            <path d="M13 10 7.5 16l5.5 6M19 10l5.5 6-5.5 6" fill="none" stroke="#8B7CFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Devsora
+        </p>
+        <p class="footer-desc">An early-stage AI startup building practical tools that simplify developer workflows and cloud operations.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai">Repository</a></li>
+          <li><a href="https://github.com/ThirunavukarasuKanagaraj/awsbloghub-ai/issues">Issues</a></li>
+          <li><a href="https://github.com/ThirunavukarasuKanagaraj">GitHub profile</a></li>
+        </ul>
+      </nav>
+      <p class="disclaimer">Devsora is an independent project. It is not affiliated with, endorsed by or sponsored by Amazon Web Services. AWS and related names are trademarks of Amazon.com, Inc. or its affiliates. Dashboard figures on this page are illustrative sample data. Built in public by <a href="https://github.com/ThirunavukarasuKanagaraj">Thirunavukarasu Kanagaraj</a>.</p>
     </div>
   </footer>
 </body>

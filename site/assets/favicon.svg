@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 32 32">
-  <title>AWSBlogHub AI</title>
-  <rect width="32" height="32" rx="7" fill="#232F3E"/>
-  <path d="M13 10 7 16l6 6M19 10l6 6-6 6" fill="none" stroke="#FF9900" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <title>Devsora</title>
+  <rect width="32" height="32" rx="8" fill="#0A0E1A"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none" stroke="#8B7CFF" stroke-opacity="0.6"/>
+  <path d="M13 10 7.5 16l5.5 6M19 10l5.5 6-5.5 6" fill="none" stroke="#8B7CFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
